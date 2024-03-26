@@ -3,7 +3,7 @@ import requests
 import json
 
 
-url = 'https://xskt.com.vn/xsmb/100-ngay'
+url = 'https://xskt.com.vn/xsmb/200-ngay'
 result = requests.get(url=url)
 
 content = result.text
