@@ -5,8 +5,12 @@ name = "pypi"
 
 [packages]
 requests = "*"
+pandas = "*"
+beautifulsoup4 = "*"
+matplotlib = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
